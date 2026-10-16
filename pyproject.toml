@@ -1,0 +1,11 @@
+[project]
+name = "practores"
+version = "0.1.0"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "crewai==1.6.1",
+    "crewai-tools==1.6.1",
+]
+
+[tool.uv]
+required-environments = ["sys_platform == 'darwin' and platform_machine == 'x86_64'"]
